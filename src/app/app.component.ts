@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+//import { H8kNavbar } from 'h8k-components';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SimpleColorPickerAngular-v3';
+  colorOptions: string[] = ['#5d77f5', '#0fd085', '#ffba5b', '#f95e62', 'lightpink'];
+  initialColor: string = 'black';
 }
