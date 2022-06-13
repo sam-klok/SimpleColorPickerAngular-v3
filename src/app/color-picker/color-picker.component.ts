@@ -14,6 +14,17 @@ export class ColorPickerComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.selectedColor = this.initialColor;
+
+  }
+
+  public onColorChangeClick(value: any) {
+
+    if(value){
+      this.selectedColor = value;
+    }
+
+    //console.log(value);
   }
 
 }

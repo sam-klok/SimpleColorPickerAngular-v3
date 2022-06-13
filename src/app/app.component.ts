@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'SimpleColorPickerAngular-v3';
-  colorOptions: string[] = ['#5d77f5', '#0fd085', '#ffba5b', '#f95e62', 'lightpink'];
+  colorOptions: string[] = ['darkblue','#5d77f5', '#0fd085', '#ffba5b', '#f95e62','black', 'lightpink'];
   initialColor: string = 'black';
 }
